@@ -43,6 +43,7 @@ code {
 
 img {
     border: 10px solid #3d503d;
-    padding: 0;
+    padding: 10px;
+    border: 1px solid black;
 
 }
