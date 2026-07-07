@@ -40,3 +40,9 @@ code {
     background-color: #3d503d;
     color: #fff;
 }
+
+img {
+    border: 10px solid #3d503d;
+    padding: 0;
+
+}
