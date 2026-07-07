@@ -47,6 +47,6 @@ p {
 
 footer {
     margin-top: 10px;
-    border-top: 1px dotted teal;
+    border-top: 1px dotted rgb(1, 104, 104);
     text-align: center;
 }
