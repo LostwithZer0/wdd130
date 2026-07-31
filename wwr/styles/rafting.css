@@ -29,6 +29,7 @@ header {
     display: grid;
     grid-template-columns: 150px 1fr;
     align-items: center;
+    margin-bottom: -20px;
 }
 
 header > img {
@@ -48,6 +49,7 @@ header nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
+    gap: 35px;
 }
 
 header nav a {
@@ -257,7 +259,7 @@ footer p {
 }
 
 .company-info {
-    padding: 16px;
+    padding: 5px;
     text-align: center;
 }
 
@@ -360,7 +362,13 @@ footer p {
     font-weight: bold;
 }
 
-.contact-form-section fieldset label,
+.contact-form-section fieldset div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 8px;
+}
+
 .newsletter label {
     display: flex;
     gap: 8px;
@@ -421,3 +429,4 @@ footer p {
     margin-top: 8px;
     color: var(--secondary-color);
 }
+
